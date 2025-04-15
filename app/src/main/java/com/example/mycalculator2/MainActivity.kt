@@ -71,28 +71,28 @@ fun Greeting(context: Context) {
 
         Button(onClick = {
             var result = num1.value.toInt() + num2.value.toInt()
-            Toast.makeText(context,"Hello $result",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"Hello $result",Toast.LENGTH_LONG).show()
         }) {
             Text(text = "Add")
         }
 
         Button(onClick = {
             var result = num1.value.toInt() - num2.value.toInt()
-            Toast.makeText(context,"Hello $result",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"Hello $result",Toast.LENGTH_LONG).show()
         }) {
             Text(text = "Subtract")
         }
 
         Button(onClick = {
             var result = num1.value.toInt() * num2.value.toInt()
-            Toast.makeText(context,"Hello $result",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"Hello $result",Toast.LENGTH_LONG).show()
         }) {
             Text(text = "Multiply")
         }
 
         Button(onClick = {
             var result = num1.value.toInt() / num2.value.toInt()
-            Toast.makeText(context,"Hello $result",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"Hello $result",Toast.LENGTH_LONG).show()
         }) {
             Text(text = "Divide")
         }
